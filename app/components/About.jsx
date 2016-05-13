@@ -3,7 +3,7 @@ var React = require('react');
 module.exports = () => {
   return (
   <div>
-    <h3 className="text-center">About</h3>
+    <h1 className="text-center page-title">About</h1>
     <p>This is the about page</p>
     <p>Here are som of the tools I've used:</p>
     <ul>
