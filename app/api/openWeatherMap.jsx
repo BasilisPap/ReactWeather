@@ -13,7 +13,7 @@ module.exports = {
       } else {
         return {
           location: `${res.data.name}, ${res.data.sys.country}`,
-          temp: res.data.main.temp
+          temp: Math.floor(res.data.main.temp)
         }
       }
     }, function (res) {
